@@ -7,6 +7,7 @@
 int main(void)
 {
         char c;
+
         char d;
 
         c = 'a';
@@ -20,7 +21,7 @@ int main(void)
                 (d <= 'z') {
                         putchar(d);
                         d++;
-                }
+		}
         putchar('\n');
         return (0);
 }
