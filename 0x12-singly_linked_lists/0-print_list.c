@@ -3,7 +3,7 @@
 
 /**
  * print_list - prints all the elements of a linked list
- * @h: pointer to the list_t list to print
+ * @h: pointer to the list_t list to point
  *
  * Return: the number of nodes printed
  */
@@ -20,6 +20,5 @@ printf("[%u] %s\n", h->len, h->str);
 h = h->next;
 s++;
 }
-
 return (s);
 }
